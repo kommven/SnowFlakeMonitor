@@ -1,0 +1,7 @@
+# Commit the changes to the repository
+import os
+
+os.system("git add snowflake_connector.py")
+os.system("git add README.md")
+os.system("git add streamlit_app.py")
+os.system("git commit -m 'Add SnowflakeConnector class and Streamlit app for Snowflake connection'")
